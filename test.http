@@ -1,0 +1,11 @@
+get https://q461a5bc9c.execute-api.us-east-2.amazonaws.com/default/main
+
+###
+
+post https://q461a5bc9c.execute-api.us-east-2.amazonaws.com/default/main
+content-type: application/json
+
+{
+    "name": "sample",
+    "quantity": "5"
+}
